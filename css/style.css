@@ -1,0 +1,144 @@
+/*
+
+  Template Name: MAHMUD - Personal Portfolio HTML5 Template
+  Author: Asif Adib
+  E-mail: asifadib780@gmail.com
+  Version: 1.0.0
+  Created: August 2020
+  File Description: Main Css file of the template
+
+  NB: This file contains the styling for the actual theme, this is the file you need to edit to change the look of the theme.
+
+*/
+
+
+/*
+
+  Table of Content
+  ================
+  1. Default css
+  2. Preloader css
+  3. Mouse Animation css
+  4. Nav Area css
+  5. Banner Area css
+  6. About Area css
+  7. Services Area css
+  8. Number Area css
+  9. Portfolio Area css
+  10. Testimonial Area css
+  11. Contact Area css
+  12. Brand Area css
+  13. Footer Area css
+  14. Back To Top css
+
+*/
+
+/*--- 1. Default css ---*/
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500,700|Rufina:400,700');
+
+body{
+  font-family: 'Rubik', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Rufina', serif;
+	font-weight: normal;
+	color: #000a2d;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: normal;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color: inherit;
+}
+
+
+
+/*--- 2. Preloader css ---*/
+/*--- 3. Mouse Scroll Animation css ---*/
+/*--- 4. Navbar css ---*/
+/*--- 5. Hero Section css ---*/
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?7jw2yt');
+  src:  url('../fonts/icomoon.eot?7jw2yt#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?7jw2yt') format('truetype'),
+    url('../fonts/icomoon.woff?7jw2yt') format('woff'),
+    url('../fonts/icomoon.svg?7jw2yt#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-vimeo:before {
+  content: "\eaa0";
+}
+.icon-behance:before {
+  content: "\eaa8";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-skype:before {
+  content: "\eac5";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+.icon-git:before {
+  content: "\eae7";
+}
+
+
+
+ul{
+  padding: 0;
+  margin: 0;
+  height: 95vh;
+}
+ul li{
+  list-style-type: none;
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  border: 1px solid rgb(243, 9, 118);
+  background-color: rgb(243, 9, 118);
+  color: beige;
+  border-radius: 4px;
+}
